@@ -1,1 +1,1 @@
-require("tachyons")
+import "./src/styles/global.css"
