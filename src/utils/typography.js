@@ -19,7 +19,8 @@ const typography = new Typography({
           ],
         },
       ],
-      headerFontFamily: ["Montserrat"]
+      headerFontFamily: ["Montserrat"],
+      headerGray: 10,
 })
 
 
