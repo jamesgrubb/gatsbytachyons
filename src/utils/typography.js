@@ -1,7 +1,30 @@
 import Typography from "typography"
-import fairyGateTheme from "typography-theme-fairy-gates"
 
-const typography = new Typography(fairyGateTheme)
+
+const typography = new Typography({
+    googleFonts: [
+        {
+          name: 'Montserrat',
+          styles: [
+            '700',
+          ],
+        },
+        {
+          name: 'Merriweather',
+          styles: [
+            '400',
+            '400i',
+            '700',
+            '700i',
+          ],
+        },
+      ],
+      headerFontFamily: ["Montserrat"]
+})
+
+
 
 export const { scale, rhythm, options } = typography
+
+
 export default typography
